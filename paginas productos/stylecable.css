@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,700&family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-nav{
+    height: 70px;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    
+}
+.wrapper-nav a{
+    text-decoration: none;
+    color:black ;
+}
+.container-main{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    width: 80%; 
+}
+
+.wrapper-producto-img{
+    width: 50em;
+    padding-right: 50px;
+}
+
+.wrapper-title{
+    font-size: 6em;
+    margin-bottom: 0.2em;
+    font-family: 'Lobster', cursive;
+}
+.wrapper-description{
+    margin-bottom: 2em;
+    width: 70%;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.wrapper-botones{
+    display: flex;
+}
+.btn-add{
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    width: 14em;
+    height: 4em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    margin: 0 1em 0 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.btn-precio{
+    display: flex;  
+    font-size: 3em;
+    text-transform: uppercase;
+    width: 14em;
+    height: 1.3em;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Lato', sans-serif;
+}
